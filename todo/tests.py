@@ -35,4 +35,3 @@ class TaskModelCase(TestCase):
         task.save()
 
         self.assertFalse(task.is_overdue(current))
-        
